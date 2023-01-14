@@ -2,7 +2,7 @@
 import uniswap from '../assets/uniswap.png';
 import compound from '../assets/compound.png';
 import aave from '../assets/aave.png';
-
+import portfolio from '../assets/portfolio_site.png';
 const Projects = () => {
     return (
         <section className="projects">
@@ -11,11 +11,9 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Uniswap</h3>
-                    <img src={uniswap} alt="Uniswap Swap Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>PortfolioSite</h3>
+                    <img src={portfolio} alt="Uniswap Swap Page" />
+                    <p>MY custom portfolio site, I built from scratch with React.js
                     </p>
 
                     <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
